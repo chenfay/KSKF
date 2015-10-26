@@ -416,4 +416,6 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
+  // grunt.registerTask('live', ['connect', 'watch']); //静态服务器以及监控文件变化  
 };

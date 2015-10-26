@@ -1,0 +1,20 @@
+#pos{
+
+  .inner-pos{
+    @include totalcenter;
+    @include line-height(70px);
+    font-size:12px;
+  
+  }
+  a{
+    padding:0 3px;
+  }
+  p{
+     background:url(../themes/default/images/pos.png) no-repeat left center;
+  padding-left:20px; 
+  }
+  span{
+    @include font(12px,$linkcolor);
+    padding:0 5px;
+  }
+}
