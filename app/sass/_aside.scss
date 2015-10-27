@@ -1,0 +1,59 @@
+#aside{
+  line-height: 55px;
+  border:1px #e6e9ef solid;
+  border-bottom:none;
+  li{
+    border-bottom:1px #e6e9ef solid;
+    background: #fff;
+    font-size:14px;
+    border-left:3px #fff solid;
+    padding:0;
+     &.on{
+      border-left:3px #ea7656 solid;
+      a{
+        span{
+          background:#ea7656;
+        }
+      }
+      
+    }
+    &:hover{
+      border-left:3px #b4c76f solid;
+      background:#f5f5f5;
+      a{
+        span{
+          background:#b4c76f;
+        }
+      }
+    }
+    &.on:hover{
+      border-left:3px #ea7656 solid;
+      background:#fff;
+      a{
+        span{
+          background:#ea7656;
+        }
+      }
+    }
+    a {
+      display: block;
+      line-height:24px;
+      padding:15px;
+      *padding:0 15px;
+      span{
+        background:#bbb;
+        color: #fff;
+        @extend .ib;
+        line-height:22px;
+        width:24px;
+        height:24px;
+        border-radius:12px;
+        text-align:center;
+        margin-right:10px;
+        i{
+          font-size:16px;
+        }
+      }
+    }
+  }
+}
